@@ -36,6 +36,9 @@ rev = "main"
 and `import Fekete`, or import individual modules such as `Fekete.DeBruijnErdos`. To build it,
 run `lake exe cache get` and then `lake build`.
 
+Releases are tagged `vX.Y.Z` from `main` by the manually triggered `Release` workflow
+(`.github/workflows/release.yml`).
+
 ## Contents
 
 | File | Main results |
